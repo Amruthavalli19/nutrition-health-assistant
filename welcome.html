@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome | Nutrition Health Assistant</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: url("{{ url_for('static', filename='bg.jpg') }}") no-repeat center center fixed;
+            background-size: cover;
+        }
+        .nav {
+            padding: 15px;
+            text-align: right;
+        }
+        .nav a {
+            color: rgb(1, 22, 7);
+            margin-left: 20px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .center {
+            text-align: center;
+            margin-top: 180px;
+            color: rgb(1, 31, 13);
+        }
+        h1 {
+            font-size: 45px;
+        }
+        p {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="nav">
+    <a href="#">About</a>
+    <a href="/login">Login</a>
+</div>
+
+<div class="center">
+    <h1>Welcome to Nutrition Health Assistant</h1>
+    <p>Your guide to nutrition, deficiencies & healthy living</p>
+</div>
+
+</body>
+</html>
